@@ -58,6 +58,8 @@ The model's performance was evaluated on a held-out validation set. A comprehens
 
 ![Evaluation Dashboard Screenshot](img/output1.png)
 
+The model weights are contained within the output folder.
+
 ---
 
 ## Setup and Installation
