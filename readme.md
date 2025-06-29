@@ -44,7 +44,7 @@ To adapt the model without destroying its pre-trained weights, we use a two-stag
 2.  **Full-Model Fine-Tuning:** Next, we unfreeze the top layers of the FaceNet backbone and continue training the entire model with a very low learning rate (`AdamW` optimizer with `CosineDecay`). This allows the entire network to make subtle, cohesive adjustments.
 
  
-![A simplified diagram illustrating the multi-task approach](Comsys-Hackathon-original-by-me-team-Quixotic/img/diag.jpg)
+![A simplified diagram illustrating the multi-task approach](img/diag.jpg)
 
 ---
 
@@ -56,7 +56,7 @@ The model's performance was evaluated on a held-out validation set. A comprehens
 -   **Gender Classification:** The model performs well, though performance on the minority class (female) highlights the challenge of data imbalance, a key area for future work.
 
 
-![Evaluation Dashboard Screenshot](Comsys-Hackathon-original-by-me-team-Quixotic/img/output1.png)
+![Evaluation Dashboard Screenshot](img/output1.png)
 
 ---
 
