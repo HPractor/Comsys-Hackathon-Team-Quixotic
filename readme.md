@@ -134,6 +134,11 @@ Open the `comsys-hackathon-test.ipynb` notebook and execute the cells in order.
 -   **Evaluation (Cell 12):** The final, comprehensive evaluation dashboard will be generated.
 -   **Interactive Testing (Cell 14):** Use the interactive widgets to test the trained model on your own images or test datasets.
 
+## NOTE:
+*   If you are judging the notebook right now, the output model is located in ```output/model.h5```
+*   To run "only" the model go to the cell numbered 13 and run it, give the path to the model.
+*   If you run the whole project a new model will be generated, remember to comment out the last cell, aka cell 13.
+
 ---
 
 ## Acknowledgements
