@@ -54,7 +54,43 @@ The model's performance was evaluated on a held-out validation set. A comprehens
 
 -   **Face Verification:** The model shows excellent separation between "match" and "no-match" distance distributions, achieving high accuracy and a strong AUC score.
 -   **Gender Classification:** The model performs well, though performance on the minority class (female) highlights the challenge of data imbalance, a key area for future work.
+  
+## Task B: Face Recognition Metrics
 
+| Label        | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| No Match (0) | 74%       | 94%    | 83%      | 2500    |
+| Match (1)    | 92%       | 66%    | 77%      | 2500    |
+
+**Overall Accuracy**: 80%  
+**Macro Avg**: Precision = 83%, Recall = 80%, F1-Score = 80%  
+**Weighted Avg**: Precision = 83%, Recall = 80%, F1-Score = 80%  
+
+## Task A: Gender Classification Metrics
+
+**Average Gender Accuracy (Heads A & B)**: 88.59%
+
+### Detailed Report for Head A
+
+| Label  | Precision | Recall | F1-Score | Support |
+|--------|-----------|--------|----------|---------|
+| Male   | 95%       | 90%    | 92%      | 4010    |
+| Female | 67%       | 82%    | 74%      | 990     |
+
+**Overall Accuracy**: 88%  
+**Macro Avg**: Precision = 81%, Recall = 86%, F1-Score = 83%  
+**Weighted Avg**: Precision = 90%, Recall = 88%, F1-Score = 89%  
+
+### Detailed Report for Head B
+
+| Label  | Precision | Recall | F1-Score | Support |
+|--------|-----------|--------|----------|---------|
+| Male   | 95%       | 91%    | 93%      | 4012    |
+| Female | 68%       | 82%    | 74%      | 988     |
+
+**Overall Accuracy**: 89%  
+**Macro Avg**: Precision = 82%, Recall = 86%, F1-Score = 84%  
+**Weighted Avg**: Precision = 90%, Recall = 89%, F1-Score = 89%  
 
 ![Evaluation Dashboard Screenshot](img/output1.png)
 
