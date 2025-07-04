@@ -138,7 +138,7 @@ Open the `comsys-hackathon-test.ipynb` notebook and execute the cells in order.
 *   If you are judging the notebook right now, the output model is located in ```output/model.h5```
 *   To run "only" the model go to the cell numbered 13 and run it, give the path to the model.
 *   If you run the whole project a new model will be generated, remember to comment out the last cell, aka cell 13.
-
+Due to lack of prior information, two seperate scripts were not written for the individual tasks. Our model generates the output of Task A and Task B simultaneously, any changes in the last moment may disrupt the entire pipeline and give unwanted results. Kindly consider with all due respect.Regards.
 ---
 
 ## Acknowledgements
